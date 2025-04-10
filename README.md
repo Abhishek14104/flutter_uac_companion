@@ -1,6 +1,4 @@
 # UAC Companion
-![Static Badge](https://img.shields.io/badge/GSoC'25%20Qualification%20Task-8A2BE2)
-
 
 This Flutter app serves as a companion app for the "Ultimate Alarm Clock by CCExtractor Development".
 
