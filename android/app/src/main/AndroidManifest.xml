@@ -17,7 +17,6 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
-        <!-- ✅ Main Activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -33,22 +32,11 @@
             </intent-filter>
         </activity>
 
-        <!-- ✅ Move this OUTSIDE the <activity> -->
-        <!-- <service
-            android:name=".WearListenerService"
-            android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
-            </intent-filter>
-        </service> -->
-
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
 
-    <!-- Optional queries block -->
     <queries>
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
